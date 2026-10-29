@@ -18,7 +18,7 @@ COLUMNS= ['latitude', 'longitude', 'price', 'minimum_nights', 'number_of_reviews
           'calculated_host_listings_count', 'availability_365', 'neighbourhood_group', 'neighbourhood'    ]
 
 
-model =joblib.load("model_Pipeline.pkl")  # Load the trained model pipeline 
+model =joblib.load("Model_Pipeline.pkl")  # Load the trained model pipeline 
 
 #pydantic model = the input validation 
 class Features(BaseModel):
